@@ -17,7 +17,7 @@ public class UploadController {
 
     //Save the uploaded file to this folder
 	//private static String UPLOADED_FOLDER = "C:\\sandbox\\spring-boot-file-upload-example\\upload\\";
-	private static String UPLOADED_FOLDER = "/persistent/";
+	private static String UPLOADED_FOLDER = "D:\\home\\upload\\";
 
     @GetMapping("/")
     public String index() {
